@@ -2,7 +2,7 @@
 
 namespace Banking.Models
 {
-    public abstract class BankAccount
+    public abstract class BankAccount:IDisposable
     {
         // fields
         //private string _accountNumber;
@@ -22,6 +22,8 @@ namespace Banking.Models
                 _amount = value; 
             }
         }
+
+        public BankAccountType Type { get; set; }
 
         // constructors
         public BankAccount(string accountName, string accountNumber)
@@ -59,6 +61,29 @@ namespace Banking.Models
         {
             return $"{this.AccountName} - {this.AccountNumber}";
 ;        }
+
+        public override bool Equals(object? obj)
+        {
+            //BankAccount other = (BankAccount)obj;
+            BankAccount other = obj as BankAccount;
+            if (other == null) return false;
+
+          
+            
+            return base.Equals(this.AccountNumber == other.AccountNumber);
+        }
+
+        public void Dispose()
+        {
+            this.AccountNumber = null;
+            this.AccountName = null;
+            this.Amount = 0;
+        }
+
+        //public bool Equals(BankAccount? other)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 
 

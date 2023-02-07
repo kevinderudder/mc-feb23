@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmos.Demo.Web", "Elmos.Demo.Web\Elmos.Demo.Web.csproj", "{1740C03C-5CB3-443E-A292-B9F7543E7204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmos.Demo.Models", "Elmos.Demo.Models\Elmos.Demo.Models.csproj", "{CE345DD2-15A1-4475-9E76-95E98B1F0507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1740C03C-5CB3-443E-A292-B9F7543E7204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1740C03C-5CB3-443E-A292-B9F7543E7204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1740C03C-5CB3-443E-A292-B9F7543E7204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1740C03C-5CB3-443E-A292-B9F7543E7204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE345DD2-15A1-4475-9E76-95E98B1F0507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE345DD2-15A1-4475-9E76-95E98B1F0507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE345DD2-15A1-4475-9E76-95E98B1F0507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE345DD2-15A1-4475-9E76-95E98B1F0507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D68E89B6-55D9-48E5-8C31-E9AC0D5EFAF0}
+	EndGlobalSection
+EndGlobal

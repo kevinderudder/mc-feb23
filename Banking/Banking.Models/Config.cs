@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Banking.Models
 {
-    public class Person
+    public class Config
     {
-        
-        public int ID { get; set; }
-        public Guid PublicId { get; set; }
-        
+        public static string URL() {
+            return "http://";
+        }
     }
 }

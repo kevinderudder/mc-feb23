@@ -15,5 +15,10 @@ namespace Banking.Models
         public KbcBankAccount(string accountName, string accountNumber, double amount) : base(accountName, accountNumber, amount)
         {
         }
+
+        public override string GenerateBankAccountNumber()
+        {
+            return "REVO1234" + new Random().Next();
+        }
     }
 }
